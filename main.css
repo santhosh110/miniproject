@@ -1,0 +1,54 @@
+body{
+        background-image: url("images/gallery-3.jpg");
+        width: 100%;
+        height: 100%;
+}
+h1{
+    text-align: center;
+color: rgba(236, 240, 12, 0.658);
+font-family: 'Courier New', Courier, monospace;
+    
+}
+h5{
+    color: rgb(174, 192, 11);
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    text-align: center;
+    color: rgb(227, 250, 18);
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    text-align: center;
+    color: rgb(212, 192, 7);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    border-radius: 30px;
+}
+form{
+    height: 600px;
+    width: 400px;
+    background-color: rgba(12, 240, 164, 0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    bottom: 70%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(7, 236, 160, 0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+
+}
